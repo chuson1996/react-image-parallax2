@@ -1,6 +1,7 @@
 {
   "name": "react-image-parallax2",
   "homepage": "http://chuson1996.github.io/react-image-parallax2",
+  "main": "lib/react-image-parallax2.js",
   "version": "0.1.0",
   "devDependencies": {
     "autoprefixer": "6.7.2",
