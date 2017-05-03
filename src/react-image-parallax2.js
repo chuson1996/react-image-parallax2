@@ -29,10 +29,10 @@ class ImageParallax extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    const { imageHeight } = this.state;
-    this.setState({
+    this.setState(({ imageHeight }) => ({
       parentHeight: imageHeight * (1 - nextProps.reduceHeight)
-    });
+    }));
+    this.onScroll();
   }
 
   componentWillUnMount() {
@@ -46,6 +46,7 @@ class ImageParallax extends Component {
       parentHeight: clientHeight * (1 - this.props.reduceHeight),
       imageHeight: clientHeight
     });
+    this.onScroll();
   }
 
   inRange(min, max, val) {

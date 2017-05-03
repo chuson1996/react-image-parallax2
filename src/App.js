@@ -68,8 +68,9 @@ class App extends Component {
             src={imageSrc}/>
         </Box>
         <BoxRight>
+          <p>(Scroll down)</p>
           <h1>
-            reduceHeight:
+            <small>0 &lt; </small>reduceHeight: <small>&lt; 1</small>
           </h1>
           <Input
             valid={valid}
