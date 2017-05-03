@@ -40,7 +40,6 @@ class ImageParallax extends Component {
   }
 
   onLoad({ target: { clientHeight }}) {
-    console.log('onLoad');
     if (this.props.onLoad) this.props.onLoad();
     window.addEventListener('scroll', this.onScroll);
     this.setState({
