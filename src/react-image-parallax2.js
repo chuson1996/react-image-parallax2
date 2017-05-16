@@ -35,7 +35,7 @@ class ImageParallax extends Component {
     this.onScroll();
   }
 
-  componentWillUnMount() {
+  componentWillUnmount() {
     window.removeEventListener('scroll', this.onScroll);
   }
 
