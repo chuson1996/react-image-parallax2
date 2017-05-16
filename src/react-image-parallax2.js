@@ -14,7 +14,8 @@ class ImageParallax extends Component {
 
     this.state = {
       parentHeight: 'auto',
-      transformY: 0
+      transformY: 0,
+      imageHeight: 0
     };
 
     this.onScroll = this.onScroll.bind(this);
