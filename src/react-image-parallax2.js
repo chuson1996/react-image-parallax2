@@ -75,7 +75,7 @@ class ImageParallax extends Component {
       <div ref={(elem) => this.container = elem} style={{
         position: 'relative',
         overflow: 'hidden',
-        height: parentHeight
+        height: parentHeight || 'auto'
       }}>
         <img style={{
           ...style,
