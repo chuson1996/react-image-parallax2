@@ -16,7 +16,7 @@ var config = {
     publicPath: 'lib/',
     filename: 'react-image-parallax2.js',
     sourceMapFilename: 'react-image-parallax2.map',
-    library: 'ReactFoldImage',
+    library: 'ReactImageParallax2',
     libraryTarget: 'umd'
   },
   module: {
@@ -35,8 +35,7 @@ var config = {
       commonjs2: 'react',
       commonjs: 'react',
       amd: 'react'
-    },
-    'styled-components': 'styled-components',
+    }
   }
 };
 
